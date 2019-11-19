@@ -18,9 +18,9 @@
 
 # Project Info
 # ------------------
-set(PROJECT_NAME chromium68-browser-service)
-set(PROJECT_PRETTY_NAME "Chromium68 browser service")
-set(PROJECT_DESCRIPTION "AGL widget service for Chromium browser")
+set(PROJECT_NAME chromium68-enactbrowser-service)
+set(PROJECT_PRETTY_NAME "Chromium68 Enact browser service")
+set(PROJECT_DESCRIPTION "AGL widget service for Enact browser")
 set(PROJECT_URL "https://webosose.org")
 set(PROJECT_ICON "icon.png")
 set(PROJECT_AUTHOR "Jose Dapena Paz")

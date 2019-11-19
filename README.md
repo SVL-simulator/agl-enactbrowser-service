@@ -1,30 +1,7 @@
-# Chromium68 browser service
-
-## Overview
-
-This repository contains the boilerplate for packaging a widget for AGL
-application framework, that launches Chromium Browser.
-
-This has been tested in AGL Eel.
-
-## How to build
-
-This is expected to be built from the Yocto recipes, using CMake and
-application framework recipes.
-
-## Implementation notes
-
-This package does not contain the browser itself:
-* chromium68 recipe will build Chromium68, and the WAM webview.
-* chromium68 installed package will contain libcbe.so, that is a shared
-  library used both by Chromium68 browser and by WAM.
-* chromium68-browser installed package contains the actual executable
-  and resources that are specific to the browser, but not used by WAM.
-* chromium68-browser-service prepares a wgt file that points to the
-  executable installed by chromium68-browser.
+# Enact browser service
 
 ## Copyright and License Information
-Copyright (c) 2018 LG Electronics, Inc.
+Copyright (c) 2019 LG Electronics, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
