@@ -18,8 +18,8 @@
 
 # Project Info
 # ------------------
-set(PROJECT_NAME chromium68-enactbrowser-service)
-set(PROJECT_PRETTY_NAME "Chromium68 Enact browser service")
+set(PROJECT_NAME enactbrowser-service)
+set(PROJECT_PRETTY_NAME "Enact browser service")
 set(PROJECT_DESCRIPTION "AGL widget service for Enact browser")
 set(PROJECT_URL "https://webosose.org")
 set(PROJECT_ICON "icon.png")
