@@ -11,6 +11,8 @@ method = "POSIX"
 path = "/usr/bin/app-shell/run_app_shell_agl"
 
 params = [
-  "--folder /opt/enactbrowser",
-  "--appid=enactbrowser",
+  "--folder",
+  "/opt/enactbrowser",
+  "--appid",
+  "enactbrowser",
 ]
